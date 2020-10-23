@@ -8,16 +8,25 @@
 </head>
 <body>
 	<div class="wrapper">
-		<form action="">
+		<form action="" class="form">
 			<div class="select-type">
-				<select name="" id="" class="figures">
-					<option value="">Square</option>
-					<option value="">Rectangle</option>
-					<option value="">Circle</option>
-				</select>
+				<label for="select-figure">Select shape: </label>
+					<select name="" id="select-figure" class="figures">
+						<option value="choose " disabled selected></option>
+						<option value="square">Square</option>
+						<option value="rectangle">Rectangle</option>
+						<option value="circle">Circle</option>
+					</select>
+			</div>
+			<div class="select-color">
+				<label for="">Выберите цвет :</label>
+				<input type="radio" name="btn" value="red" > <span>Red</span>
+				<input type="radio" name="btn" value="orange"> <span>Orange</span>
+				<input type="radio" name="btn" value="black"> <span>Black</span>
 			</div>
 			
 		</form>
+		<div class="figure "></div>
 		
 	</div>
 
